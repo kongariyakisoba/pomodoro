@@ -1,2 +1,2 @@
 # pomodoro
-it's pomodoro
+it's not the pomodoro technique,either.
