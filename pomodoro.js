@@ -1,4 +1,4 @@
-const focusSeconds = 2 * 60 * 60;
+const focusSeconds = 1 * 60 * 60;
 const breakSeconds = 5 * 60;
 const alarmAudio=new Audio("alarm.mp3")
 
