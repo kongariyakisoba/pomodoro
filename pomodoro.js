@@ -18,7 +18,7 @@ function render() {
   timer.textContent = String(minutes).padStart(2, "0")
     + ":"
     + String(seconds).padStart(2, "0");
-  mode.textContent = isFocus ? "集中" : "休憩";
+  mode.textContent = isFocus ? "暖房" : "換気";
 }
 
 function switchMode() {
