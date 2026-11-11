@@ -30,8 +30,6 @@ function switchMode() {
 }
 
 function startTimer() {
-  alarmAudio.pause();
-  alarmAudio.currentTime=0;
   if (intervalId !== null) return;
 
   intervalId = window.setInterval(() => {
@@ -46,8 +44,6 @@ function startTimer() {
 }
 
 function pauseTimer() {
-  alarmAudio.pause();
-  alarmAudio.currentTime=0;
   window.clearInterval(intervalId);
   intervalId = null;
 }
